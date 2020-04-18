@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/jacknifesoulde5/typescript-for-javascript-developers#readme",
   "dependencies": {
+    "save-dev": "0.0.1-security",
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.5"
   },
   "devDependencies": {
